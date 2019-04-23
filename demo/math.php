@@ -7,6 +7,7 @@
     <body>
 
         <?php
+            $br = "<br/><br/>";
 
             echo 56 + 45;
             echo "<br/>";
@@ -20,7 +21,13 @@
             echo "<br/>";
             $num1 = 12;
             $num2 = 21;
-            echo $num1 + $num2;
+            echo $num1 + $num2 . $br;
+
+            echo pow(3, 7) . $br;
+            echo rand(1, 1000) . $br;
+            echo ceil(4.4) . $br;
+            echo floor(5.7) . $br;
+            echo sqrt(16) . $br;
         ?>
 
     </body>

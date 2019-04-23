@@ -7,6 +7,7 @@
     <body>
 
         <?php
+            $br = "<br/><br/>";
 
             $numberList = array(123, '123', 33, '<h1>Hello, Universe!</h1>');
 
@@ -14,8 +15,19 @@
 
             echo $numberList[0];
             echo "<br /><br /><br />";
-            print_r($numberList)
+            print_r($numberList);
 
+            echo $br;
+
+            $sampleArray = [1, 2, 3, 4, -1, 551];
+
+            echo max($sampleArray) . $br;
+
+            echo min($sampleArray) . $br;
+
+            sort($sampleArray);
+
+            print($sampleArray);
         ?>
 
     </body>
